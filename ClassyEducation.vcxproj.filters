@@ -18,16 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Student.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Teacher.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Course.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CourseSections.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Person.cpp">
@@ -38,16 +29,7 @@
     <ClInclude Include="main.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Student.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Teacher.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Course.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CourseSections.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Person.h">

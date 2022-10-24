@@ -1,5 +1,6 @@
 ﻿#pragma once
-#include "main.h"
+
+#include <string>
 
 class Person {
 	std::string mName;

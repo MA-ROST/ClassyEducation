@@ -1,5 +1,6 @@
 ﻿#pragma once
-#include "main.h"
+#include <string>
+#include <vector>
 #include "Person.h"
 
 class Course {
@@ -12,8 +13,8 @@ public:
 class CourseSections {
 	Course mCourse;
 	Teacher mTeacher;
-	vector<Student> mStudents;
+	std::vector<Student> mStudents;
 
 public:
-	CourseSections(Course course, Teacher teacher, vector<Student> students);
+	CourseSections(Course course, Teacher teacher, std::vector<Student> students);
 };

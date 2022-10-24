@@ -1,15 +1,17 @@
 ﻿#include "Person.h"
 
-Person::Person (string name, string email):
+Person::Person (std::string name, std::string email):
 	mName(name), mEmail(email)
 {}
 
-Student::Student(string name, string email, float gpa) : Person(name, email), mGpa(gpa)
+Student::Student(std::string name, std::string email, float gpa) :
+	Person(std::move (name), std::move (email)), mGpa(gpa)
 {
 
 }
 
-Teacher::Teacher (string name, string email, float salary):Person(name, email), mSalary(salary)
+Teacher::Teacher (std::string name, std::string email, float salary):
+	Person(std::move (name), std::move (email)), mSalary(salary)
 {
 
 }
