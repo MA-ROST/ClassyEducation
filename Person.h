@@ -3,19 +3,19 @@
 
 class Person {
 	std::string mName;
-	string mEmail;
+	std::string mEmail;
 public:
-	Person(string name, string email);
+	Person(std::string name, std::string email);
 };
 
 class Student : public Person {
-	int mGpa;
+	float mGpa;
 public:
-	Student(string name, string email, int gpa);
+	Student(std::string name, std::string email, float gpa);
 };
 
 class Teacher : public Person{
-	int mSalary;
+	float mSalary;
 public:
-	Teacher(string name, string email, int salary);
+	Teacher(std::string name, std::string email, float salary);
 };
